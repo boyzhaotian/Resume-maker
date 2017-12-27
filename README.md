@@ -1,8 +1,8 @@
-Resume-it
+Resume-maker
 ======
 
 一个灵活的数据模板分离的在线简历生成器。
-效果：https://xiao555.github.io/Resume/
+效果：https://boyzhaotian.github.io/Resume/
 如果喜欢的话请给个star ^_^
 
 ![](./resume.png)

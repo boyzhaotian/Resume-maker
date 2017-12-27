@@ -9,15 +9,16 @@ age: 25岁
 gender: 男
 school: 北京工业大学
 profession: 电子信息工程、广告学双学位
-grade: 在职
-english_level: CET-6
-blog: 
+grade: 工作3年
+english_level: CET-6、口语优良
+blog: https://sky-blog.netlify.com
 github: https://www.github.com/boyzhaotian
-website: 
+website: https://sky-blog.netlify.com
 online: https://boyzhaotian.github.io/Resume/
 print: https://boyzhaotian.github.io/Resume/print.html
-apply_to_position: Web前端工程师
+apply_to_position: Web前端工程师、全栈工程师
 description: !!md |
+  曾经的小鲜肉，如今的技术宅。
   # 我叫张睿武，西电软件学院大四学生，现在在腾讯TEG实习，负责前端开发。自学web前端，后端Node.js，PHP 也略知一二。能折腾，喜欢在实践中学习，学Vue的时候就是看两天文档，然后直接用在写个人博客上，在不断的跳坑脱坑中进步。希望在工作中能应用到自己所学的东西，跟产品一同成长。
 contact: # 联系方式
   -
@@ -26,20 +27,20 @@ contact: # 联系方式
     value: 13426031783@139.com
   -
     icon: fa-qq
-    name: QQ
+    name: QQ/微信
     value: '704824874'
   -
     icon: fa-phone-square
-    name: PhoneNumber
+    name: Mobile
     value: '13426031783'
 honor: # 奖项荣誉
 tech: # 技能点
   -
     name: HTML/CSS
-    percentage: 80%
+    percentage: 100%
   -
     name: JavaScript
-    percentage: 60%
+    percentage: 100%
   -
     name: PHP
     percentage: 50%
@@ -48,7 +49,10 @@ tech: # 技能点
     percentage: 60%
   -
     name: Node.js
-    percentage: 40%
+    percentage: 60%
+  -
+    name: MySQL
+    percentage: 50%
 experience: # 项目经验
   # -
   #   section: 个人项目
@@ -85,62 +89,81 @@ experience: # 项目经验
     section: 工作经验
     exper:
       - 
-        company: 北京太一互联科技有限公司 - 超级中学
-        time: 2015.2.1 - 2015.8.31
+        company: 北京太一互联科技有限公司
+        time: 2015.4 - 2015.8 
         desc: !!md |
           大四开始参与太一互联的工作，主要负责网站前后端的搭建与维护，属于前后端学习的初级阶段。
         project:
           -
+            name: 超级中学（已下线）
+            date: '2015.4'
+            img: https://boyzhaotian.netlify.com/cjzx_logo.jpg
+            website: http://www.evervc.com/startups/3108
+            source_code:
             des: !!md |
-              技术需求上，改造过内部的一个手机号验证组件，实现了多实例，状态保存等功能，在代码层面也做了优化，减少$的使用，重复运行的代码抽离出来等等。
-          -
-            des: !!md |
-              业务需求上，在做官网轮播图需求的时候，把旧的代码封装成内部组件，并且可以绑定多个实例，实现代码的复用。
-          -
-            des: !!md |
-              在解决bug的过程中，也积累了不少经验，比如有ie下的background：rgba兼容性问题，通过google用filter解决的。
-          -
-            des: !!md |
-              在开发的过程中，我会思考怎么实现是最好的，团队的产品也教会了我认真做好每一个细节。在腾讯的人生第一次职场之旅，我觉得ok。
+              这是我接手的第一个WEB项目，为了适应团队框架完成页面我快速学习了PHP及ThinkPHP（简称TP）框架，HTML，JS以及CSS等WEB开发的基础技术，然后在实践中巩固。
+              &nbsp;&nbsp;&nbsp;&nbsp; 我在项目中负责开发前端页面及部分接口逻辑。通过这个项目我熟悉了TP框架的基本配置及路由配置，同时由于进行了大量的前端开发，对Bootstrap、jQuery及大量jQuery相关插件进行了详细深入的学习了解。
       - 
-        company: WPNinja
-        time: 2016.7 - 2017.5
-        desc: 这是一个面向国外客户的远程开发团队，基于wordpress搭建网站，前五个月我负责前端部分的开发, 最大程度的还原设计稿，完成页面交互，后面开始负责后端PHP开发。
+        company: 北京联盛世纪科技有限公司
+        time: 2015.9 - 2016.4
+        # desc: 这是一个面向国外客户的远程开发团队，基于wordpress搭建网站，前五个月我负责前端部分的开发, 最大程度的还原设计稿，完成页面交互，后面开始负责后端PHP开发。
         project:
           -
-            name: SSRGA
-            date: '2016.7'
-            img: https://xiao555.netlify.com/ssrga.jpg
-            website: http://www.ssrga.com/
+            name: 智行护驾APP / 智行小弟APP / 智行护驾微信端（已下线）
+            date: '2015.10'
+            img: https://boyzhaotian.netlify.com/zxhj_ad.png
+            # website: http://www.ssrga.com/
             source_code:
             des: !!md |
-              这是我接手的第一个项目，为了适应团队框架完成页面我快速学习了模板引擎Nunjucks，CSS预处理器Stylus，数据层YAML语法等等。
-              然后在实践中巩固，最终一个周左右实现了这个项目的前端部分。
+              该项目客户端为混合式APP，项目整体基于Nodejs搭建，并使用了Js的转译语言CoffeeScript（CS）进行开发。
+              &nbsp;&nbsp;&nbsp;&nbsp; 客户端的Web部分采用了Backbone框架，接口则使用了Express。
+              &nbsp;&nbsp;&nbsp;&nbsp; 在这个项目中，我初识了Node环境，并接触了大量新技术。包括项目中使用的转译语言CS，前端框架，Node框架以及css预处理语言Less。完成该项目时，我原生代码和jQuery已运用熟练，也为之后Node全栈的学习打下了基础。
+      - 
+        company: 光明云（天津）科技有限公司
+        time: 2016.6 - 至今
+        # desc: 这个团队主要基于自身的微站产品
+        project:
           -
-            name: Clubfit
-            date: '2016.8'
-            img: https://xiao555.netlify.com/clubfit.jpg
-            website: http://clubfit.vwmdev.com/
+            name: 北京三里屯通盈中心洲际酒店微官网
+            date: '2016.6 - 2016.7'
+            img: https://boyzhaotian.netlify.com/zjjd_all.png
+            website: http://ws.gmym.cn/app/index.php?i=76
+            link_text: 移动端
             source_code:
             des: !!md |
-              接手这个项目时已经对团队的框架比较熟悉了，这个项目也包括了很多页面组件，算是强化练习吧。每天的代码leader会review，我再相应的做出修改，整个过程下来收获很多，是一次蜕变。
+              该项目为纯静态前端项目，全部数据由php模板获取。为了提高复用率，我将页面内容通过模板数据分类渲染，并制作了侧栏插件以供全局调用。
+              &nbsp;&nbsp;&nbsp;&nbsp; 通过这个项目的短暂适应，我熟悉了团队主要项目的PHP开发环境以及部分功能模块。前端搭建上，自己也在尝试将代码向组件化发展。
           -
-            name: taldumande
-            date: '2016.9'
-            img: https://xiao555.netlify.com/taldumande.jpg
-            website: https://www.taldumande.org.au/
+            name: 光明日报理论号
+            date: '2017.7 - 2017.10'
+            img: https://boyzhaotian.netlify.com/llh_all.png
+            website: http://theory.cloud.gmw.cn/templates/app/index.html
+            link_text: 移动端
             source_code:
             des: !!md |
-              这是项目前端已经能完全独立完成了，设计也有很多有趣的地方，像header，footer部分两种颜色，为了不影响其它布局也比较方便用伪元素解决。没有很难的地方，细节很多，也比较考验布局能力。
+              该项目为新闻信息类站点，页面元素丰富，曾经历多次改版。多次的改版使我熟悉了多种布局以及一些特殊效果的处理方式，并且为适应不同客户端的版本情况，进行了大量适配处理。
+        library:
           -
-            name: workforceprofessionals
-            date: '2016.10'
-            img: https://xiao555.netlify.com/workforceprofessionals.jpg
-            website: https://workforceprofessionals.org/
-            source_code:
-            des: !!md |
-              这个项目我负责后端，跟leader语音交流了一下后端框架的用法，研究了两三天大体了解了基于wordpress的后端的工作方式，于是用边写边学的方式完成了这个项目。我做的就是写项目有关的逻辑，数据的导入获取等等。
-              另外，首页的下面的Twitter部分是我写的，之前获取tweet的方法需要各种key麻烦还有问题，我查了好久找到一个相关的js库Twitter-Post-Fetcher，使用简单。
+            name: 光明微站首页
+            img: https://boyzhaotian.netlify.com/llh_all.png
+            link: http://weizhan.gmw.cn/web/index.php
+          # -
+          #   name: taldumande
+          #   date: '2016.9'
+          #   img: https://xiao555.netlify.com/taldumande.jpg
+          #   website: https://www.taldumande.org.au/
+          #   source_code:
+          #   des: !!md |
+          #     这是项目前端已经能完全独立完成了，设计也有很多有趣的地方，像header，footer部分两种颜色，为了不影响其它布局也比较方便用伪元素解决。没有很难的地方，细节很多，也比较考验布局能力。
+          # -
+          #   name: workforceprofessionals
+          #   date: '2016.10'
+          #   img: https://xiao555.netlify.com/workforceprofessionals.jpg
+          #   website: https://workforceprofessionals.org/
+          #   source_code:
+          #   des: !!md |
+          #     这个项目我负责后端，跟leader语音交流了一下后端框架的用法，研究了两三天大体了解了基于wordpress的后端的工作方式，于是用边写边学的方式完成了这个项目。我做的就是写项目有关的逻辑，数据的导入获取等等。
+          #     另外，首页的下面的Twitter部分是我写的，之前获取tweet的方法需要各种key麻烦还有问题，我查了好久找到一个相关的js库Twitter-Post-Fetcher，使用简单。
           # -
           #   name: innerdoor
           #   date: 2016.11 - 至今
@@ -153,16 +176,19 @@ experience: # 项目经验
 skill: # 技能清单
       -
         des: !!md |
-          能够用 HTML + CSS 编写语义化的代码，完成较复杂的布局，熟悉Stylus、PostCss 等css预处理、后处理工具
+          代码工整，前端还原度搞，能够遵循HTML5协议进行语义化编写。致力于开发出高端简洁的前端页面。能够快速适应不同框架的开发环境。
       -
         des: !!md |
-          在Blog项目中熟悉了 Vue，写过Vue的双向数据绑定[Demo](https://github.com/xiao555/Two-way-Data-Bindings)， 使用了 ES6、7 的新语法，了解 Node.js, jQuery.
+          熟练使用 Git SVN 等方式进行团队协作开发，掌握 Webpack Gulp 等前端构建工具，了解 Coffee SASS Less 等预编译、扩展语言。
       -
         des: !!md |
-          熟悉 Git Webpack Gulp 等开发工具
-      -
-        des: !!md |
-          熟悉 Koa, Express, MongoDB, Mysql 能搭建简单的后端项目，租了Digital Ocean 的VPS，腾讯云 部署网站
-
-
----
+          了解服务器性能相关知识，可独立建站，对Koa、Express、Restify等Node框架进行过深度的性能测试。
+      # -
+      #   des: !!md |
+      #     在Blog项目中熟悉了 Vue，写过Vue的双向数据绑定[Demo](https://github.com/xiao555/Two-way-Data-Bindings)， 使用了 ES6、7 的新语法，了解 Node.js, jQuery.
+      # -
+      #   des: !!md |
+      #     熟悉 Git , 掌握 Webpack Gulp 等开发工具的用法
+      # -
+      #   des: !!md |
+      #     熟悉 Koa, Express, MongoDB, Mysql 能搭建简单的后端项目，租了Digital Ocean 的VPS，腾讯云 部署网站          

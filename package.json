@@ -1,5 +1,5 @@
 {
-  "name": "resume-it",
+  "name": "resume-maker",
   "version": "1.0.0",
   "description": "A resume generator",
   "main": "index.js",
@@ -42,6 +42,6 @@
     "rimraf": "^2.6.1",
     "simple-git": "^1.73.0"
   },
-  "author": "xiao555",
+  "author": "赵大仁",
   "license": "MIT"
 }

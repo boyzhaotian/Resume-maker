@@ -116,7 +116,7 @@
                                             <div class="circle"></div>
                                             <h4>{{ sub_item.name }} {{ sub_item.date }}
                                             {% if sub_item.website %}
-                                            <a href="{{ sub_item.website }}" target="_blank"><i class="fa fa-link"></i>Demo</a>
+                                            <a href="{{ sub_item.website }}" target="_blank"><i class="fa fa-hand-pointer-o"></i>{{sub_item.link_text}}</a>
                                             {% endif %}
                                             {% if sub_item.source_code %}
                                             <a href="{{ sub_item.source_code }}" target="_blank"><i class="fa fa-link"></i>SourceCode</a>
@@ -128,6 +128,15 @@
                                             </div>
                                         </li>
                                     {% endfor %}
+                                    <!-- {% for sub_lib in item.library %}
+                                        <li>
+                                            <div class="circle"></div>
+                                            <div class="lib_item" style="background-image:url({{sub_lib.img}})">
+                                                {{sub_lib.name}}
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </li>
+                                    {% endfor %} -->
                                 </ul>
                             </li>
                             {% endfor %}
